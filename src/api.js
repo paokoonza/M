@@ -55,7 +55,7 @@ class LineAPI {
     path: this.config.LINE_HTTP_URL,
     https: true
   }) {
-    options.headers['X-Line-Application'] = 'CHROMEOS\t8.2.1\tChrome_OS\t1';
+    options.headers['X-Line-Application'] = 'CHROMEOS\t2.1.0\tCHROMEOS\t10.0.0';
     this.options = options;
     this.connection =
       thrift.createHttpConnection(this.config.LINE_DOMAIN_3RD, 443, this.options);
